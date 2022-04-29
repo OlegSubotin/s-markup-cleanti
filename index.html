@@ -7,8 +7,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+        
         <link rel="stylesheet" href="styles/index.css">
     <title>Home</title>
 </head>
@@ -37,6 +39,7 @@
                     </li>
                 </ul>
 
+                <div class="socials-wrapper">
                 <ul class="header-socials header-list">
                 <li class="header-socials-item">
                     <a href="#" class="header-socials-link">
@@ -67,6 +70,7 @@
                     </a>
                 </li>
                 </ul>
+                </div>
             </nav>
 
 
@@ -81,10 +85,16 @@
 
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Zamów pranie i ciesz się czystością</h1>
+                
+                
+                <h1 class="hero-title">Zamów pranie i ciesz się <br> czystością</h1>
+                
+                <div class="call-link-wrapper">
                 <a class="hero-link call-link" href="tel:+48730877546">
                     Zadzwoń
                 </a>
+                
+                </div>
             </div>
         </section>
 
@@ -93,11 +103,14 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="title-section">Cleanti krok po kroku</h2>
+                <div class="features-wrapper">
+                    <div class="features-title-wrapper">
+                        <h2 class="title-section">Clean<span class="title-part">ti</span>  krok po kroku</h2>
+                     </div>
                 <ul class="features">
                     <li class="features-item">
                         <div class="icon-moderation">
-                            <svg class="features-icon" width=71 height=44>
+                            <svg class="features-icon" width=70 height=45>
                                 <use href="images/sprite.svg#icon-burger"></use>
                             </svg>
                         </div>
@@ -105,7 +118,7 @@
                     </li>
                     <li class="features-item">
                         <div class="icon-moderation">
-                            <svg class="features-icon" width=62 height=51>
+                            <svg class="features-icon" width=65 height=55>
                                 <use href="images/sprite.svg#icon-house"></use>
                             </svg>
                         </div>                        
@@ -113,7 +126,7 @@
                     </li>
                     <li class="features-item">
                         <div class="icon-moderation">
-                            <svg class="features-icon" width=47 height=50>
+                            <svg class="features-icon" width=46 height=50>
                                 <use href="images/sprite.svg#icon-contact"></use>
                             </svg>
                         </div>
@@ -125,9 +138,10 @@
                                 <use href="./images/sprite.svg#icon-check"></use>
                             </svg>
                         </div>
-                        <p class="features-text">Ciesz się wolnym czasem i czystością z Cleanti.</p>
+                        <p class="features-text">Ciesz się wolnym czasem i czystością z Clean<span class="title-part">ti</span>.</p>
                     </li>
                 </ul>
+                </div>
             </div>
         </section>
 
@@ -135,12 +149,16 @@
         <!--OUR OFFER-->
         <section class="section offer-section">
             <div class="container">
-                <h2 class="title-section ">Z czego składa się nasza oferta?</h2>
+                <div class="offer-wrapper">
+                    <div class="offer-title-wrapper">
+                    <h2 class="offer-title">Z czego składa się nasza oferta?</h2>
+                </div>
+
                 <ul class="offer-list">
                     <li class="offer-item">
                         <p class="offer-text"> Odkurzanie powierzchni</p>
                         <div class="offer-icon">
-                            <svg class="features-icon" width=26 height=26>
+                            <svg  width=26 height=26>
                                 <use href="images/sprite.svg#icon-ellipse"></use>
                             </svg>
                         </div>
@@ -148,7 +166,7 @@
                     <li class="offer-item">
                         <p class="offer-text"> Pranie ekstrakcyjne</p>
                         <div class="offer-icon">
-                            <svg class="features-icon" width=26 height=26>
+                            <svg  width=26 height=26>
                                 <use href="images/sprite.svg#icon-ellipse"></use>
                             </svg>
                         </div>
@@ -156,7 +174,7 @@
                     <li class="offer-item">
                         <p class="offer-text"> Odplamianie</p>
                         <div class="offer-icon">
-                            <svg class="features-icon" width=26 height=26>
+                            <svg  width=26 height=26>
                                 <use href="images/sprite.svg#icon-ellipse"></use>
                             </svg>
                         </div>
@@ -164,14 +182,15 @@
                     <li class="offer-item">
                         <p class="offer-text"> Usunięcie zapachów</p>
                         <div class="offer-icon">
-                            <svg class="features-icon" width=26 height=26>
+                            <svg  width=26 height=26>
                                 <use href="images/sprite.svg#icon-ellipse"></use>
                             </svg>
                         </div>
                     </li>
                 </ul>
-
-                <a href="#" class="offer-link"> *wszystkie usługi są w cenie prania</a>
+                
+                <a href="#" class="offer-link"> * wszystkie usługi są w cenie prania</a>
+                </div>
             </div>
         </section>
 
@@ -181,21 +200,21 @@
                 <h2 class="title-section ">Dlaczego Cleanti?</h2>
                 <ul class="trust-list">
                     <li class="trust-item">
-                        <img src="images/trust/prof.jpg" alt="aggregate" width=250 height=200 />
+                        <img class="trust-image" src="images/trust/prof.jpg" alt="aggregate" width=250 height=200 />
                         <div class="trust-description">
                             <h3 class="trust-description-title">Profesjonalizm</h3>
                             <p class="trust-description-text">Wykształcony personel oraz profesjonalny sprzęt.</p>
                         </div>
                     </li>
                     <li class="trust-item">
-                        <img src="images/trust/quality.jpg" alt="vacuum-cleaner" width=250 height=200 />
+                        <img class="trust-image" src="images/trust/quality.jpg" alt="vacuum-cleaner" width=250 height=200 />
                         <div class="trust-description">
                             <h3 class="trust-description-title">Jakość</h3>
                             <p class="trust-description-text">Wykorzystujemy najwyższej jakości środki czystości.</p>
                         </div>
                     </li>
                     <li class="trust-item">
-                        <img src="images/trust/customer.jpg" alt="woman in a call-center" width=250 height=200 />
+                        <img class="trust-image" src="images/trust/customer.jpg" alt="woman in a call-center" width=250 height=200 />
                         <div class="trust-description">
                             <h3 class="trust-description-title">Skuteczna obsługa klienta</h3>
                             <p class="trust-description-text">Szybka i elastyczna obsługa zapełnia bezpieczeństwo oraz dostosowania do potrzeb każdego klienta.</p>
@@ -207,15 +226,18 @@
 
         <!-- BUY -->
         <section class="section buy-section">
-            <div class="container">    
-                <div class="buy-link-wrapper">     
-                <a class="buy-link call-link" href="tel:+48730877546">
-                    Zadzwoń
-                </a>
-                </div>
+            <div class="container">   
+                <div class="buy-section-up">
+                    <div class="buy-call-wrapper">
+                    <div class="buy-link-wrapper">     
+                    <a class="buy-link call-link" href="tel:+48730877546">
+                        Zadzwoń
+                    </a>
+                    </div>
+                    </div>
 
                 <div class="buy-text-content">
-                    <h2 class="title-section ">Zamów nasze usługi</h2>
+                    <h2 class="buy-section-title">Zamów nasze usługi</h2>
                     <ul class="buy-list">
                         <li class="buy-item">
                             <svg class="buy-item-icon" width=28 height=28>
@@ -238,7 +260,7 @@
                         
                     </ul>
                 </div>
-
+                </div>
             </div>
         </section>
 
