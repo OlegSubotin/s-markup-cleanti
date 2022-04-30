@@ -157,7 +157,7 @@ line-height: 21px;
 
 .hero {
     background-color: #E5E5E5;;
-    background-image: url(../images/hero/desk-bg.jpg);
+    background-image: url(../images/home-blank/hero/desk-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -267,7 +267,7 @@ background-color: transparent;
 .offer-section{
     margin-top: 53px;
         background-color: #E5E5E5;;
-        background-image: url(../images/offer/desk-bg.jpg);
+        background-image: url(../images/home-blank/offer/desk-bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -404,7 +404,7 @@ background-color: transparent;
 .buy-section {
     margin-top: 53px;
     background-color: #E5E5E5;
-    background-image:  url(../images/buy/desk-bg.jpg);
+    background-image:  url(../images/home-blank/buy/desk-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
