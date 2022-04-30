@@ -150,6 +150,7 @@ line-height: 21px;
 
 .call-link{
     color: var(--extra-text-color);
+    padding: 22px 82px;
 }
 
 /* HERO */
@@ -443,6 +444,11 @@ background-color: transparent;
 .buy-link-wrapper:hover,
 .buy-link-wrapper:focus {
     background-color: var(--accent-color);
+}
+
+.buy-link{
+    color: var(--extra-text-color);
+    padding: 22px 82px;
 }
 
 
