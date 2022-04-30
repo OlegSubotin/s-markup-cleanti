@@ -9,12 +9,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Roboto:wght@500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-
-    <link rel="stylesheet" href="styles/contact.css">
-    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles/help.css">
+    <title>O nas</title>
 </head>
 <body>
     
@@ -34,10 +32,10 @@
                         <a class="nav-link " href="about.html">O nas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="help.html">Pomoc</a>
+                        <a class="nav-link current" href="help.html">Pomoc</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link current" href="contact.html">Kontakt</a>
+                        <a class="nav-link" href="contact.html">Kontakt</a>
                     </li>
                 </ul>
     
@@ -82,59 +80,246 @@
     </header>
 
     <main>
-        <!-- CONTACT-FORM -->
-        <section class="section contact-form-section">
-            <div class="container">
-               <div class="form-wrapper">
-                   <div class="form-border">
-                    <h2 class="contact-form-title">Formularz kontaktowy</h2>
-                        <form action="#" class="modal__form" id="js-form">
-                        <p class="form-contact-text">Masz pytania? </p>
-                        <p class="form-contact-text" style="margin-bottom:20px;"> Napisz do nas, z przyjemnością pomożemy Ci tak szybko, jak to możliwe!</p>
-                        <div class="modal__form-field">                            
-                            <div class="modal__form-input-wrap">
-                                <input autofocus placeholder="Imię i Nazwisko" type="text" id="input-name" class="modal__form-input" name="name" required minlength="2" />
-                                
-                            </div>
+        <!-- QUESTION -->
+        <section class="section question-section">
+            <div class="container question-container">
+                <h2 class="question-section-title">Często zadawane pytania</h2>
+                
+                <div class="question-wrapper" id="1">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
                         </div>
-                        
-                        <div class="modal__form-field">                            
-                            <div class="modal__form-input-wrap">
-                                <input placeholder="E-mail" type="email" id="input-mail" class="modal__form-input" name="email" required />
-                                
-                            </div>
-                        </div>
-                        <div class="modal__form-field">
-                            <textarea name="message" id="comment" placeholder="|" class="modal__form-text"></textarea>
-                        </div>
-                        
-                        <button class="modal__form-send-button btn" type="submit">
-                            Wyślij
-                        </button>
-                    </form>
+                        <p class="question">Czy wszystkie plamy udaje się usunąć?</p>
                     </div>
+                    
+                </div>
 
-               </div> 
+                <div id="1" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Czy wszystkie plamy udaje się usunąć?</p>
+                    </div>
+                </div>
+
+
+                <div id="2" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Na czym polega pranie ekstrakcyjne?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="2" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Na czym polega pranie ekstrakcyjne?</p>
+                    </div>
+                </div>
+
+
+                <div id="3" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Ile trwa pranie?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="3" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Ile trwa pranie?</p>
+                    </div>
+                </div>
+
+
+                <div id="4" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Jaki jest czas schnięcia?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="4" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Jaki jest czas schnięcia?</p>
+                    </div>
+                </div>
+
+
+                <div id="5" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Czy czyszczenie jest bezpieczne?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="5" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Czy czyszczenie jest bezpieczne?</p>
+                    </div>
+                </div>
+
+
+                <div id="6" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Czy ubezpieczacie pomieszczenia, w którym odbywa się pranie?</p>
+                    </div>
+                    
+                </div>
+
+                <div id="6" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Czy ubezpieczacie pomieszczenia, w którym odbywa się pranie?</p>
+                    </div>
+                </div>
+
+
+                <div id="7" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Czy dojazd do klienta jest bezpłatny?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="7" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Czy dojazd do klienta jest bezpłatny?</p>
+                    </div>
+                </div>
+
+
+
+                <div id="8" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Ile kosztuje pranie w Cleanti?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="8" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Ile kosztuje pranie w Cleanti?</p>
+                    </div>
+                </div>
+
+
+                
+
+
+                <div id="9" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Co potrzebujemy od klienta przed rozpoczęciem prania?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="9" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Co potrzebujemy od klienta przed rozpoczęciem prania?</p>
+                    </div>
+                </div>
+
+
+                <div id="10" class="question-wrapper">
+                    <div class="question-content">
+                        <div class="question-icon">
+                            <svg width=26 height=26>
+                                <use href="images/sprite.svg#icon-ellipse"></use>
+                            </svg>
+                        </div>
+                        <p class="question">Jak często wykonywać pranie w domu?</p>
+                    </div>
+                
+                </div>
+                
+                <div id="10" class="answer-wrapper answer-visually-hidden">
+                    <div class="answer-content">
+                        <p class="answer">Jak często wykonywać pranie w domu?</p>
+                    </div>
+                </div>
+
+            
             </div>
+
         </section>
 
 
-        <!-- MAP -->
-        <section class="section map-section">
+        <!-- BUY -->
+        <section class="section buy-section">
             <div class="container">
-                <div class="map-wrapper">
-                    <h2 class="map-title">Kontakt</h2>
-                    <address class="map-contact">
-                    <a class="map-link-address" href="https://goo.gl/maps/Af16KiFfW8Q5p8or8">
-                        Miejscowośc: Warszawa ul.Dębicka 4a
-                    </a>
-                    <a class="map-link-tel" href="tel:+48730376243">
-                        +48 730 376 243
-                    </a>
-                    <a class="map-link-image" href="https://goo.gl/maps/Af16KiFfW8Q5p8or8">
-                        <img src="images/contact-blank/map-img.png" alt="exact location"  height=400>
-                    </a>
-                    </address>
+                <div class="buy-section-up">
+                    <div class="buy-call-wrapper">
+                        <div class="buy-link-wrapper">
+                            <a class="buy-link call-link" href="tel:+48730877546">
+                                Zadzwoń
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="buy-text-content">
+                        <h2 class="buy-section-title">Zamów nasze usługi</h2>
+                        <ul class="buy-list">
+                            <li class="buy-item">
+                                <svg class="buy-item-icon" width=28 height=28>
+                                    <use href="images/sprite.svg#icon-check-circle"></use>
+                                </svg>
+                                <p class="buy-item-description">Jakość i bezpieczeństwo</p>
+                            </li>
+                            <li class="buy-item">
+                                <svg class="buy-item-icon" width=28 height=28>
+                                    <use href="images/sprite.svg#icon-check-circle"></use>
+                                </svg>
+                                <p class="buy-item-description">Doświadczony personel</p>
+                            </li>
+                            <li class="buy-item">
+                                <svg class="buy-item-icon" width=28 height=28>
+                                    <use href="images/sprite.svg#icon-check-circle"></use>
+                                </svg>
+                                <p class="buy-item-description">Profesjonalna obsługa każdego klienta</p>
+                            </li>
+        
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -284,6 +469,6 @@
         </div>
     </footer>
 
-    <script src="js/contact.js" type="module"></script>
+    <script src="js/help.js" type="module"></script>
 </body>
 </html>
