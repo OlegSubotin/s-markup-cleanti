@@ -9,11 +9,12 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
 
 
-    <link rel="stylesheet" href="styles/about.css">
-    <title>O nas</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Kontakt</title>
 </head>
 <body>
     
@@ -30,13 +31,13 @@
                         <a class="nav-link " href="price.html">Cennik</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link current" href="about.html">O nas</a>
+                        <a class="nav-link " href="about.html">O nas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pomoc</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Kontakt</a>
+                        <a class="nav-link current" href="contact.html">Kontakt</a>
                     </li>
                 </ul>
     
@@ -81,61 +82,59 @@
     </header>
 
     <main>
-        <!-- ABOUT -->
-        <section class="section about-section">
+        <!-- CONTACT-FORM -->
+        <section class="section contact-form-section">
             <div class="container">
-                <div class="about-title-wrapper">
-                    <h2 class="title-section">O Clean<span class="title-part">ti</span></h2>
-                </div>
-                <p class="about-text">Jesteśmy firmą, która działa w branży usług porządkowych. Zajmujemy się praniem tapicerek meblowych, dywanów i
-                wykładzin. W trosce o bezpieczeństwo naszych klientów stosujemy profesjonalne środki czystości oraz sprzęt najlepszych
-                producentów.
-                <br>
-                <br>
-                Zamawiając usługę w Cleanti, możecie być pewni, że pranie będzie wykonane solidnie i zawsze na czas. Gwarantujemy wysoką
-                jakość usług i bezpieczeństwa w konkurencyjnych cenach. Zadowolenie klienta jest dla nas priorytetem.</p>
-                <img src="images/about-blank/about-img.jpg" alt="vacuum-cleaner" width=1119 height=382>
-            </div>
+               <div class="form-wrapper">
+                   <div class="form-border">
+                    <h2 class="contact-form-title">Formularz kontaktowy</h2>
+                        <form action="#" class="modal__form" id="js-form">
+                        <p class="form-contact-text">Masz pytania? </p>
+                        <p class="form-contact-text" style="margin-bottom:20px;"> Napisz do nas, z przyjemnością pomożemy Ci tak szybko, jak to możliwe!</p>
+                        <div class="modal__form-field">                            
+                            <div class="modal__form-input-wrap">
+                                <input autofocus placeholder="Imię i Nazwisko" type="text" id="input-name" class="modal__form-input" name="name" required minlength="2" />
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="modal__form-field">                            
+                            <div class="modal__form-input-wrap">
+                                <input placeholder="E-mail" type="email" id="input-mail" class="modal__form-input" name="email" required />
+                                
+                            </div>
+                        </div>
+                        <div class="modal__form-field">
+                            <textarea name="message" id="comment" placeholder="|" class="modal__form-text"></textarea>
+                        </div>
+                        
+                        <button class="modal__form-send-button btn" type="submit">
+                            Wyślij
+                        </button>
+                    </form>
+                    </div>
 
+               </div> 
+            </div>
         </section>
 
 
-        <!-- BUY -->
-        <section class="section buy-section">
+        <!-- MAP -->
+        <section class="section map-section">
             <div class="container">
-                <div class="buy-section-up">
-                    <div class="buy-call-wrapper">
-                        <div class="buy-link-wrapper">
-                            <a class="buy-link call-link" href="tel:+48730877546">
-                                Zadzwoń
-                            </a>
-                        </div>
-                    </div>
-        
-                    <div class="buy-text-content">
-                        <h2 class="buy-section-title">Zamów nasze usługi</h2>
-                        <ul class="buy-list">
-                            <li class="buy-item">
-                                <svg class="buy-item-icon" width=28 height=28>
-                                    <use href="images/sprite.svg#icon-check-circle"></use>
-                                </svg>
-                                <p class="buy-item-description">Jakość i bezpieczeństwo</p>
-                            </li>
-                            <li class="buy-item">
-                                <svg class="buy-item-icon" width=28 height=28>
-                                    <use href="images/sprite.svg#icon-check-circle"></use>
-                                </svg>
-                                <p class="buy-item-description">Doświadczony personel</p>
-                            </li>
-                            <li class="buy-item">
-                                <svg class="buy-item-icon" width=28 height=28>
-                                    <use href="images/sprite.svg#icon-check-circle"></use>
-                                </svg>
-                                <p class="buy-item-description">Profesjonalna obsługa każdego klienta</p>
-                            </li>
-        
-                        </ul>
-                    </div>
+                <div class="map-wrapper">
+                    <h2 class="map-title">Kontakt</h2>
+                    <address class="map-contact">
+                    <a class="map-link-address" href="https://goo.gl/maps/Af16KiFfW8Q5p8or8">
+                        Miejscowośc: Warszawa ul.Dębicka 4a
+                    </a>
+                    <a class="map-link-tel" href="tel:+48730376243">
+                        +48 730 376 243
+                    </a>
+                    <a class="map-link-image" href="https://goo.gl/maps/Af16KiFfW8Q5p8or8">
+                        <img src="images/contact-blank/map-img.png" alt="exact location"  height=400>
+                    </a>
+                    </address>
                 </div>
             </div>
         </section>
@@ -285,5 +284,6 @@
         </div>
     </footer>
 
+    <script src="js/contact.js" type="module"></script>
 </body>
 </html>
