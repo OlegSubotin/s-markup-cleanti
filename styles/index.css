@@ -433,6 +433,93 @@ a {
     }
 
 
+    /* BUY */
+
+    .buy-section{
+        margin-top: 60px;
+        height: 400px;
+                background-color: #E5E5E5;
+                background-image: url(../images/home-blank/buy/desk-bg.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+    }
+
+    .buy-call-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buy-link-wrapper {
+        margin: 40px auto 20px auto;
+        width: 200px;
+        height: 60px;
+        background: #7CB75E;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16px;
+        cursor: pointer;
+    }
+    
+    .buy-link {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        color: var(--extra-text-color);
+        padding: 20px 54px;
+    }
+
+    .buy-text-content{
+        padding: 5px;
+        background-color: #2A3B4C80;
+        border-radius: 10px 0px 10px 10px;
+        height: 273px;
+   }
+
+    .buy-section-title{
+        text-align: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 42px;
+        color: var(--extra-title-color);
+        margin-bottom: 30px;
+    }
+
+
+
+    .buy-item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .buy-item-icon{
+        margin-right: 10px;
+        fill: #44A4D9;;
+    }
+
+    .buy-item-description{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: var(--extra-text-color);
+    }
+
+
 
 
     /* .header {
