@@ -8,4 +8,5 @@ openBtn.addEventListener('click', () => {
 
 closeBtn.addEventListener('click', () => {
     menuEl.classList.toggle('is-hidden');
-})
+});
+
