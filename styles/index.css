@@ -53,8 +53,8 @@ a {
 
     .container {
         max-width: 425px;
-        padding: 15px;
-        /* padding-left: 15px; */
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 auto;
     }
 
@@ -65,6 +65,7 @@ a {
     }
 
     .header{
+        padding: 15px;
         height: 100%;
     }
 
@@ -256,7 +257,7 @@ a {
         margin-bottom: 30px;
     }
 
-    .features-title-section{
+    .title-section{
         padding-bottom: 20px;
                 text-align: center;
                 font-family: 'Raleway';
@@ -265,6 +266,11 @@ a {
                 font-size: 30px;
                 line-height: 35px;
                 color: var(--main-title-color);
+    }
+
+    .title-part {
+    
+        color: var(--accent-color);
     }
     .features{
         display: flex;
@@ -300,6 +306,81 @@ a {
         color: var(--main-text-color);
     }
 
+
+    /* OFFER */
+
+    .offer-section{
+        margin-top: 45px;
+        height: 400px;
+        background-image: url(../images/home-blank/offer/desk-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .offer-wrapper{
+        padding: 20px;
+        height: 400px;
+        background-color: #2A3B4C80;
+
+    }
+
+    .offer-title-wrapper{
+    background-color: #44A4D9;
+    border-radius: 10px 0px 10px 10px;
+    }
+
+    .offer-title{
+                padding: 5px;
+                text-align: center;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 35px;
+                color: var(--main-title-color);
+    }
+
+    .offer-list{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .offer-item{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .offer-text{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--extra-text-color);
+    }
+
+    .offer-icon{
+        margin-left: 10px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        fill: var(--main-title-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offer-link{
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+        color: var(--extra-text-color);
+    }
 
 
 
