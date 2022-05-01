@@ -310,7 +310,7 @@ a {
     /* OFFER */
 
     .offer-section{
-        margin-top: 45px;
+        margin-top: 60px;
         height: 400px;
         background-image: url(../images/home-blank/offer/desk-bg.jpg);
         background-repeat: no-repeat;
@@ -381,6 +381,57 @@ a {
         line-height: 35px;
         color: var(--extra-text-color);
     }
+
+    /* TRUST */
+
+    .trust-section{
+        margin-top: 60px;
+    }
+
+    .trust-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .trust-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .trust-image{
+        border: 8px solid rgba(68, 164, 217, 0.1);
+        border-radius: 10px 0px 10px 10px;
+        margin-bottom: 10px;
+    }
+
+    .trust-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trust-description-title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        color: var(--main-title-color);
+        margin-bottom: 10px;
+    }
+
+    .trust-description-text{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;        
+        color: var(--main-text-color);
+    }
+
 
 
 
