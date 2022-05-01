@@ -136,6 +136,7 @@ a {
         font-size: 18px;
         line-height: 21px;
         color: var(--extra-text-color);
+        padding: 20px 54px;
     }
 
     .mob-nav{
@@ -182,6 +183,9 @@ a {
 
     .mob-socials-item:not(:last-child){
         margin-right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .mob-socials-link{
