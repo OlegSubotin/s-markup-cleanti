@@ -191,8 +191,60 @@ a {
     .mob-socials-link{
         fill: #2A3B4C99;;
     }
+
+    /* MAIN */
+
+    /* HERO */
+
+    .hero {
+        height: 300px;
+        background-image: url(../images/home-blank/hero/desk-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: flex-start;
+    }
     
- 
+    .hero-title {
+        margin-top: 40px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        color: var(--extra-title-color);
+    }
+
+    .call-link-wrapper{
+        margin: 40px auto 20px auto;
+        width: 200px;
+        height: 60px;
+        background: #7CB75E;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16px;
+        cursor: pointer;
+    }
+    .call-link{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 18px;
+                color: var(--extra-text-color);
+                padding: 20px 54px;
+    }
+
+    .visually-hidden {
+        display: none;
+    }
 
 
 
