@@ -214,7 +214,7 @@ a {
 }
 .buy-link{
     color: var(--extra-text-color);
-    padding: 22px 82px;
+    padding: 30px 82px;
 }
 
 
@@ -427,4 +427,8 @@ a {
 .footer-review-icon:hover,
 .footer-review-icon:focus {
     fill: rgba(68, 164, 217, 1);
+}
+
+.visually-hidden {
+    display: none;
 }

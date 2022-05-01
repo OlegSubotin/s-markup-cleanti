@@ -350,7 +350,7 @@ color: var(--main-title-color);
 }
 .buy-link{
     color: var(--extra-text-color);
-    padding: 22px 82px;
+    padding: 30px 82px;
 }
 
 
@@ -563,4 +563,8 @@ color: var(--main-title-color);
 .footer-review-icon:hover,
 .footer-review-icon:focus {
     fill: rgba(68, 164, 217, 1);
+}
+
+.visually-hidden {
+    display: none;
 }

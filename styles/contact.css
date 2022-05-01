@@ -524,3 +524,7 @@ align-items: center;
 .footer-review-icon:focus {
     fill: rgba(68, 164, 217, 1);
 }
+
+.visually-hidden {
+    display: none;
+}

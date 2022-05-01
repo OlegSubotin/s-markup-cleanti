@@ -150,7 +150,7 @@ line-height: 21px;
 
 .call-link{
     color: var(--extra-text-color);
-    padding: 22px 82px;
+    padding: 34px 82px;
 }
 
 /* HERO */
@@ -448,7 +448,7 @@ background-color: transparent;
 
 .buy-link{
     color: var(--extra-text-color);
-    padding: 22px 82px;
+    padding: 30px 82px;
 }
 
 
@@ -655,4 +655,8 @@ fill:rgba(68, 164, 217, 1);
 .footer-review-icon:hover,
 .footer-review-icon:focus {
     fill: rgba(68, 164, 217, 1);
+}
+
+.visually-hidden{
+    display: none;
 }
