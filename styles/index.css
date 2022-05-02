@@ -131,6 +131,12 @@ a {
                 line-height: 1.16px;
                 cursor: pointer;
     }
+
+    .mob-call-link-wrapper:hover,
+    .mob-call-link-wrapper:focus
+    {
+        background: var(--accent-color);
+    }
     .mob-link{
         font-family: 'Raleway';
         font-style: normal;
@@ -140,6 +146,8 @@ a {
         color: var(--extra-text-color);
         padding: 20px 54px;
     }
+
+    
 
     .mob-nav{
         display: flex;
@@ -233,6 +241,11 @@ a {
         font-size: 18px;
         line-height: 1.16px;
         cursor: pointer;
+    }
+
+    .call-link-wrapper:hover,
+    .call-link-wrapper:focus{
+        background: var(--accent-color);
     }
     .call-link{
                 font-family: 'Raleway';
@@ -467,6 +480,11 @@ a {
         font-size: 18px;
         line-height: 1.16px;
         cursor: pointer;
+    }
+
+    .buy-link-wrapper:focus,
+    .buy-link-wrapper:hover{
+        background: var(--accent-color);
     }
     
     .buy-link {
@@ -761,6 +779,12 @@ a {
         cursor: pointer;
     }
 
+    .mob-call-link-wrapper:focus,
+    .mob-call-link-wrapper:hover{
+        background: var(--accent-color);
+    }
+
+
     .mob-link {
         font-family: 'Raleway';
         font-style: normal;
@@ -863,6 +887,11 @@ a {
         font-size: 24px;
         line-height: 1.16px;
         cursor: pointer;
+    }
+
+    .call-link-wrapper:focus,
+    .call-link-wrapper:hover{
+        background: var(--accent-color);
     }
 
     .call-link {
@@ -1128,6 +1157,11 @@ a {
         cursor: pointer;
     }
 
+    .buy-link-wrapper:focus,
+    .buy-link-wrapper:hover{
+        background: var(--accent-color);
+    }
+
     .buy-link {
         font-family: 'Raleway';
         font-style: normal;
@@ -1372,7 +1406,6 @@ a {
     .header-logo {
         margin-right: 420px;
         cursor: pointer;
-    border-color: teal;
     }
     
     

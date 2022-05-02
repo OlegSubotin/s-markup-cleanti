@@ -138,6 +138,11 @@ a {
         cursor: pointer;
     }
 
+    .mob-call-link-wrapper:hover,
+    .mob-call-link-wrapper:focus{
+        background: var(--accent-color);
+    }
+
     .mob-link {
         font-family: 'Raleway';
         font-style: normal;
@@ -268,6 +273,11 @@ a {
         font-size: 18px;
         line-height: 1.16px;
         cursor: pointer;
+    }
+
+    .buy-link-wrapper:focus,
+    .buy-link-wrapper:hover{
+        background: var(--accent-color);
     }
 
     .visually-hidden {
@@ -577,6 +587,11 @@ a {
         cursor: pointer;
     }
 
+    .mob-call-link-wrapper:focus,
+    .mob-call-link-wrapper:hover{
+        background: var(--accent-color);
+    }
+
     .mob-link {
         font-family: 'Raleway';
         font-style: normal;
@@ -714,6 +729,11 @@ a {
         font-size: 18px;
         line-height: 1.16px;
         cursor: pointer;
+    }
+
+    .buy-link-wrapper:hover,
+    .buy-link-wrapper:focus{
+        background: var(--accent-color);
     }
 
     .buy-link {
