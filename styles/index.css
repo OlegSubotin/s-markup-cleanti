@@ -1275,7 +1275,6 @@ a {
         margin-right: 50px;
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
     }
 
     .footer-nav-item:not(:last-child) {
