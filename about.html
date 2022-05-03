@@ -88,7 +88,7 @@
                     </svg>
                 </button>
     
-                <di class="mob-menu is-hidden" id="data-menu">
+                <div class="mob-menu is-hidden" id="data-menu">
                     <button class="menu-close btn" id="close-btn" data-menu-close>
                         <svg class="" width="19" height="19">
                             <use href="images/sprite.svg#icon-header-close"></use>
@@ -97,9 +97,9 @@
     
                     <div class="mob-wrapper">
                         <div class="mob-call-link-wrapper">
-                            <a id="btn-3" class="mob-link call-link" href="tel:+48512871463">
-                                <span id="call-3">Zadzwoń</span>
-                                <span id="num-3"
+                            <a id="mob-btn" class="mob-link call-link" href="tel:+48512871463">
+                                <span id="mob-call">Zadzwoń</span>
+                                <span id="mob-num"
                                     style="font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 16px; "
                                     class="visually-hidden">+48512871463</span>
                             </a>
@@ -163,7 +163,7 @@
     
     
     
-                </di>
+                </div>
     
     
             </div>
@@ -198,9 +198,9 @@
                 <div class="buy-section-up">
                     <div class="buy-call-wrapper">
                         <div class="buy-link-wrapper">
-                            <a id="btn" class="buy-link call-link" href="tel:+48512871463">
-                                <span id="call">Zadzwoń</span>
-                                <span id="num" style="font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 16px; "
+                            <a id="buy-btn" class="buy-link call-link" href="tel:+48512871463">
+                                <span id="buy-call">Zadzwoń</span>
+                                <span id="buy-num" style="font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 16px; "
                                     class="visually-hidden">+48512871463</span>
                             </a>
 
@@ -387,8 +387,9 @@
     
         </div>
     </footer>
-    <script src="js/mob-call.js" type="module"></script>
+    
     <script src="js/mob-menu.js" type="module"></script>
-    <script src="js/call-link.js" type="module"></script>
+    <script src="js/mob-call.js" type="module"></script>
+    <script src="js/buy-call.js" type="module"></script>
 </body>
 </html>

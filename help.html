@@ -10,28 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="styles/help.css">
     <title>Pomoc</title>
 </head>
 <body>
     
-    <header class="header">
-    
+    <header class="header">    
         <div class="container">
             <div class="header-wrapper">
-                <nav class="header-navigation ">
-    
+                <nav class="header-navigation ">    
                     <a class="header-logo" href="index.html" lang="en">
                         <picture>
                             <source srcset="images/logo.png" media="(min-width:1200px)" width=176 height=54 />
                             <source srcset="images/logo.png" media="(min-width:768px)" width=120 />
                             <source srcset="images/logo.png" media="(min-width:320px)" width=90 />
                             <img src="images/logo.png" alt="company-logo" width=176 height=54>
-                        </picture>
-    
-                    </a>
-    
+                        </picture>    
+                    </a>    
                     <ul class="navigation hidden">
                         <li class="nav-item">
                             <a class="nav-link " href="price.html">Cennik</a>
@@ -45,8 +40,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Kontakt</a>
                         </li>
-                    </ul>
-    
+                    </ul>    
                     <div class="socials-wrapper hidden">
                         <ul class="header-socials header-list">
                             <li class="header-socials-item">
@@ -79,31 +73,27 @@
                             </li>
                         </ul>
                     </div>
-                </nav>
-    
+                </nav>    
                 <button id="burger-open" class="open-menu">
                     <svg class="header-burger-icon" width=22 height=22>
                         <use href="images/sprite.svg#icon-burger"></use>
                     </svg>
-                </button>
-    
-                <di class="mob-menu is-hidden" id="data-menu">
+                </button>    
+                <div class="mob-menu is-hidden" id="data-menu">
                     <button class="menu-close btn" id="close-btn" data-menu-close>
                         <svg class="" width="19" height="19">
                             <use href="images/sprite.svg#icon-header-close"></use>
                         </svg>
-                    </button>
-    
+                    </button>    
                     <div class="mob-wrapper">
                         <div class="mob-call-link-wrapper">
-                            <a id="btn-3" class="mob-link call-link" href="tel:+48512871463">
-                                <span id="call-3">Zadzwoń</span>
-                                <span id="num-3"
+                            <a id="mob-btn" class="mob-link call-link" href="tel:+48512871463">
+                                <span id="mob-call">Zadzwoń</span>
+                                <span id="mob-num"
                                     style="font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 16px; "
                                     class="visually-hidden">+48512871463</span>
                             </a>
-                        </div>
-    
+                        </div>    
                         <ul class="mob-nav">
                             <li class="mob-nav-item">
                                 <a class="mob-nav-link " href="price.html">Cennik</a>
@@ -152,31 +142,19 @@
                                         </svg>
                                     </a>
                                 </li>
-                            </ul>
-    
+                            </ul>    
                         </div>
                     </div>
-    
-    
-    
-    
-    
-    
-                </di>
-    
-    
-            </div>
-    
-        </div>
-    
+                    </div>    
+            </div>    
+        </div>    
     </header>
 
     <main>
         <!-- QUESTION -->
         <section class="section question-section">
             <div class="container question-container">
-                <h2 class="question-section-title">Często zadawane pytania</h2>
-                
+                <h2 class="question-section-title">Często zadawane pytania</h2>                
                 <div class="question-wrapper" id="1">
                     <div class="question-content">
                         <div class="question-icon">
@@ -185,17 +163,13 @@
                             </svg>
                         </div>
                         <p class="question">Czy wszystkie plamy udaje się usunąć?</p>
-                    </div>
-                    
+                    </div>                    
                 </div>
-
                 <div id="1" class="answer-wrapper answer-visually-hidden">
                     <div class="answer-content">
                         <p class="answer">Niestety, nie. Usuwamy wiele rodzajów zabrudzeń, ale zdarzają się plamy, których nie da się całkowicie zlikwidować.</p>
                     </div>
                 </div>
-
-
                 <div id="2" class="question-wrapper">
                     <div class="question-content">
                         <div class="question-icon">
@@ -204,10 +178,8 @@
                             </svg>
                         </div>
                         <p class="question">Na czym polega pranie ekstrakcyjne?</p>
-                    </div>
-                
-                </div>
-                
+                    </div>                
+                </div>                
                 <div id="2" class="answer-wrapper answer-visually-hidden">
                     <div class="answer-content">
                         <p class="answer">Pranie ekstrakcyjne - jest sposobem pozwalającym usunąć zabrudzenia znajdujące się we włóknach dywanu czy tkaninie
@@ -223,8 +195,6 @@
 </p>
                     </div>
                 </div>
-
-
                 <div id="3" class="question-wrapper">
                     <div class="question-content">
                         <div class="question-icon">
@@ -233,8 +203,7 @@
                             </svg>
                         </div>
                         <p class="question">Ile trwa pranie?</p>
-                    </div>
-                
+                    </div>                
                 </div>
                 
                 <div id="3" class="answer-wrapper answer-visually-hidden">
@@ -347,12 +316,7 @@
                         <p class="answer"> <a onmouseover="this.style.color='#44A4D9'" onmouseout="this.style.color='#7CB75E'" style="color: #7CB75E; " href="price.html">Sprawdź ceny.</a> <br>
                         Kwoty są stałe, czyli nie mamy niejasności oraz ukrytych dopłat.</p>
                     </div>
-                </div>
-
-
-                
-
-
+                </div>      
                 <div id="9" class="question-wrapper">
                     <div class="question-content">
                         <div class="question-icon">
@@ -402,9 +366,9 @@
                 <div class="buy-section-up">
                     <div class="buy-call-wrapper">
                         <div class="buy-link-wrapper">
-                            <a id="btn" class="buy-link call-link" href="tel:+48512871463">
-                                <span id="call">Zadzwoń</span>
-                                <span id="num"
+                            <a id="buy-btn" class="buy-link call-link" href="tel:+48512871463">
+                                <span id="buy-call">Zadzwoń</span>
+                                <span id="buy-num"
                                     style="font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 16px; "
                                     class="visually-hidden">+48512871463</span>
                             </a>
@@ -592,10 +556,16 @@
     
         </div>
     </footer>
-
+<!-- 
     <script src="js/mob-call.js" type="module"></script>
     <script src="js/mob-menu.js"></script>
     <script src="js/help.js" type="module"></script>
-    <script src="js/call-link.js" type="module"></script>
+    <script src="js/call-link.js" type="module"></script> -->
+
+
+    <script src="js/mob-menu.js" type="module"></script>
+    <script src="js/mob-call.js" type="module"></script>
+    <script src="js/buy-call.js" type="module"></script>
+    <script src="js/help.js" type="module"></script>
 </body>
 </html>
